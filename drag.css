@@ -1,0 +1,54 @@
+body{
+    background-color: darkslateblue;
+}
+
+.imgBox{
+    background-image: url('cookie.png');
+    background-size: cover;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.whiteBox{
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    /* display: inline-block; */
+    /* border:1px solid black; */
+}
+
+button{
+    height: 20px;
+    width: 155px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.inverted{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.monster{
+    background-image: url('monster.png');
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    display: inline-block;
+    float: right;
+    z-index: 10;
+}
+
+.hold{
+    zoom: 110%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hide{
+    display: none;
+}
